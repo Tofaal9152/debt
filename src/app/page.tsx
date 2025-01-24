@@ -10,6 +10,7 @@ export default function WeightLossChallenge() {
     hours: 0,
     minutes: 0,
     seconds: 0,
+    seconds: 0,
   });
 
   useEffect(() => {
@@ -53,10 +54,10 @@ export default function WeightLossChallenge() {
 
       <main className="container mx-auto px-4 py-8">
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-bold mb-4">Progress</h2>
+          <h2 className="text-2xl font-bold mb-4">Weight</h2>
           <div className="flex justify-between mb-2">
-            <span>Current Weight: 75.7 kg</span>
-            <span>Goal Weight: 68 kg</span>
+            <span>Current: 75.7 kg</span>
+            <span>Goal: 68 kg</span>
           </div>
           <Progress value={50} className="h-4 mb-4" />
         </section>
@@ -65,9 +66,13 @@ export default function WeightLossChallenge() {
           <h2 className="text-2xl font-bold mb-4">
             Countdown to April 25, 2025
           </h2>
-          <div className="grid grid-cols-4 gap-4 text-center">
+
+          <div className="flex flex-wrap gap-4  justify-center mt-4">
             {Object.entries(timeLeft).map(([unit, value]) => (
-              <div key={unit} className="bg-blue-100 p-4 rounded-lg">
+              <div
+                key={unit}
+                className="bg-blue-100 items-center justify-center flex flex-col p-4 flex-1 rounded-lg"
+              >
                 <div className="text-4xl font-bold text-blue-600">{value}</div>
                 <div className="text-sm text-blue-800">{unit}</div>
               </div>
