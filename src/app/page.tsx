@@ -40,7 +40,7 @@ export default function WeightLossChallenge() {
           The Great Weight Loss Challenge! 🏋️‍♂️🔥
         </h1>
         <p className="text-xl">
-          Will Tofael reach his goal and claim the kala vuna prize?
+          Will Tofaal reach his goal and claim the kala vuna prize?
         </p>
         <Image
           src="/banner.webp"
@@ -78,11 +78,11 @@ export default function WeightLossChallenge() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-bold mb-4">Challenge Details</h2>
           <p className="mb-4">
-            If Tofael reduces his weight to 68 kg by April 25, he wins kala vuna
+            If Tofaal reduces his weight to 68 kg by April 25, he wins kala vuna
             from Naiem and Masum. 🍛
           </p>
           <p className="mb-4">
-            If he fails, Tofael treats Naiem and Masum to a meal worth 1000 BDT.
+            If he fails, Tofaal treats Naiem and Masum to a meal worth 1000 BDT.
             🍲
           </p>
           <blockquote className="border-l-4 border-blue-500 pl-4 italic">
