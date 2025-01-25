@@ -10,7 +10,7 @@ export default function WeightLossChallenge() {
     hours: 0,
     minutes: 0,
     seconds: 0,
-    seconds: 0,
+  
   });
 
   useEffect(() => {
