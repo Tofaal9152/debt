@@ -118,7 +118,20 @@ export default function WeightLossChallenge() {
               <p className="font-semibold text-lg">Pay 1000 tk</p>
             </div>
           </div>
+          {/* sign */}
         </section>
+        <div className="flex flex-col items-center mt-8">
+          <div className="bg-white p-4 rounded-lg shadow-lg border border-gray-300">
+            <Image
+              src="/sign.jpg"
+              alt="Signature"
+              width={200}
+              height={100}
+              className="w-48 h-auto object-contain"
+            />
+          </div>
+          <p className="text-gray-600 mt-2 text-sm italic">Signed by Tofaal</p>
+        </div>
       </main>
 
       <footer className="bg-blue-600 text-white py-8 px-4 text-center">
