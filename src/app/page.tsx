@@ -55,7 +55,7 @@ export default function WeightLossChallenge() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-bold mb-4">Weight Progress</h2>
           <div className="flex justify-between mb-2">
-            <span className="font-semibold">Current: 76.8 kg</span>
+            <span className="font-semibold">Current: 77.8 kg</span>
             <span className="font-semibold">Goal: 66 kg</span>
           </div>
           <Progress value={50} className="h-4 mb-4" />
