@@ -111,7 +111,7 @@ export default function WeightLossChallenge() {
               ⚠️ DEADLINE EXPIRED! ⚠️
             </h2>
             <p className="text-center text-gray-700 mb-6">
-              Tofaal has lost the challenge timeframe. The penalty is now active!
+              Tafseer has lost the challenge timeframe. The penalty is now active!
             </p>
             
             <div className="flex flex-col items-center justify-center bg-white p-6 rounded-xl border border-red-200">
